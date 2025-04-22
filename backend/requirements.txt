@@ -1,0 +1,15 @@
+# Backend Dependencies
+fastapi
+uvicorn[standard]
+aiofiles # For async file handling
+python-multipart # For form data (file uploads)
+
+# RabbitMQ
+pika
+
+# Tongyi Qianwen SDK & HTTP
+openai>=1.0.0  # OpenAI客户端，用于通义千问API（兼容模式）
+requests # For making HTTP requests to Tongyi Qianwen API
+# dashscope # Example, replace with actual package if available
+
+# Other potential dependencies 
