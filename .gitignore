@@ -129,4 +129,18 @@ backend/config/app_config.json
 logs/
 
 # 临时清理脚本
-backend/clean_uploads.py 
+backend/clean_uploads.py
+
+# 前端特有的排除规则
+# Vite构建输出
+frontend/dist/
+frontend/dist-ssr/
+# 本地环境文件
+frontend/*.local
+# 编辑器目录和文件（已经有部分在上面）
+frontend/.idea/
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw? 
